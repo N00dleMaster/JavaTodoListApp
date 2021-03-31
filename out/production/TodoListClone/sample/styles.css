@@ -1,0 +1,77 @@
+.root{
+    -fx-background-color: #e3dfdc;
+    -fx-padding: 50px 0 50px;
+    -fx-font-size: 15;
+    -fx-font-family: Arial;
+}
+
+#title {
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-font-size: 27;
+    -fx-padding: 0;
+}
+
+.strikethrough .text {
+    -fx-strikethrough: true;
+}
+
+.button .text {
+    -fx-insets: 0;
+}
+
+.deleteTodo {
+    -fx-background-image: url("Assets/Images/delete.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+    -fx-max-height: 25px;
+    -fx-min-width: 25px;
+}
+
+.doneTodo {
+    -fx-background-image: url("Assets/Images/checkBtn.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+    -fx-min-height: 27px;
+    -fx-min-width: 25px;
+    -fx-border-radius: 4px;
+    -fx-padding-right: 3px;
+}
+
+.undoneTodo {
+    -fx-background-image: url("Assets/Images/xBtn.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+    -fx-min-height: 25px;
+    -fx-min-width: 25px;
+}
+
+#addButton {
+    -fx-background-image: url("Assets/Images/plusSign.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+    -fx-min-width: 70px;
+    -fx-min-height: 45px;
+    -fx-border-radius: 10px;
+
+}
+
+#saveButton {
+    -fx-background-image: url("Assets/Images/save.jpg");
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center;
+    -fx-min-width: 70px;
+    -fx-min-height: 45px;
+}
+
+#addTextField {
+    -fx-min-height: 44px;
+    -fx-font-size: 25;
+}
+
+.filter-btn {
+    -fx-padding: 10px;
+}
+
+
+
